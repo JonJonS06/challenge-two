@@ -10,9 +10,12 @@ body {
 
 header {
     display: flex;
+    font-size: 2rem;
     flex-direction: row;
     justify-content: space-between;
     background-color: slategray;
+    padding: 40px;
+
 
 }
 
@@ -30,15 +33,22 @@ h1 {
 }
 
 .header image {
+    border-radius: 10px;
     background-image: url(Assets/Images/37C21A8E-7785-4F3A-90DF-20304476C6DB_1_105_c.jpeg);
     display: inline-flex;
     
 }
 
+.image {
+    outline-style: inset;
+}
+
 nav {
     display: flex;
+    font-size: 1.5rem;
     justify-content: space-between;
     padding: 15px;
+    margin-top: auto;
 
 }
 
@@ -52,4 +62,5 @@ li a {
     padding: 10px;
     text-decoration: none;
     color: black;
+    justify-content: baseline;
 }
