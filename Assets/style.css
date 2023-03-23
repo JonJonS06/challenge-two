@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    display: flex;
+    background: #575656;
+    color: black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+ul {
+    display:inline-flex;
+    list-style: none;
+}
+
+li a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
