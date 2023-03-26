@@ -36,7 +36,6 @@ h1 {
 .header image {
     border-radius: 10px;
     background-image: url(Assets/Images/37C21A8E-7785-4F3A-90DF-20304476C6DB_1_105_c.jpeg);
-    display: inline-flex;
     
 }
 
@@ -77,3 +76,51 @@ header.beach {
     background-color: lightseagreen; 
     
 }
+
+main {
+    display:inline-flex;
+    flex-direction: column;
+
+}
+
+section.titles {
+    display: flex;
+}
+
+section.content {
+    display:flex;
+
+}
+
+h2 {
+    border-right: 5px solid rgb(108 108 129);
+    padding-left: 20px;
+    color: rgb(108 108 129);
+  
+}
+
+p {
+    align-items: end;
+}
+
+
+/* Use a media query to add a breakpointat 800px or smaller */
+@media screen and (max-width:992px) {
+    .header {
+        width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .li {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
+    
