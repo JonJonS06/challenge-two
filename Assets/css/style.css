@@ -39,6 +39,10 @@ h1 {
     
 }
 
+.profile {
+    position: absolute;
+    margin: 25px;
+}
 
 nav {
     display: flex;
@@ -68,8 +72,8 @@ li a {
     justify-content: baseline;
 }
 
-header.beach {
-    background-image: url(Assets/Images/ameen-fahmy-3V8gdLbwDOI-unsplash.jpg);
+header.wood {
+    background-image: url(Assets/Images/old-faded-dull-pine-natural-dark-wooden-background.jpg);
     background-color: lightseagreen; 
     
 }
@@ -86,8 +90,16 @@ aside {
     flex: 1;
     align-items: end;
 
-    
+}
 
+h3 {
+    font-size: 2rem;
+    border-right: 5px solid rgb(108 108 129);
+    color: rgb(108 108 129);
+    margin: 50px 50px;
+    padding-right: 20px;
+    
+  
 }
 
 article {
@@ -96,15 +108,6 @@ article {
     flex-direction: column;
 }
 
-
-h2 {
-    border-right: 5px solid rgb(108 108 129);
-    color: rgb(108 108 129);
-    margin: 50px 50px;
-    padding-right: 20px;
-    
-  
-}
 
 p {
     flex: 3;
@@ -120,6 +123,12 @@ li {
     flex: 3;
     
 }
+
+.subtitle  {
+    position: relative
+    ;
+}
+
 
 
 /* Use a media query to add a breakpointat 800px or smaller */
