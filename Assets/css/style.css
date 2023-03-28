@@ -69,7 +69,7 @@ li a {
     padding: 10px;
     text-decoration: none;
     color: black;
-    justify-content: baseline;
+    
 }
 
 header.wood {
@@ -89,18 +89,11 @@ main {
 
 }
 
-aside {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: start;
-
-}
 
 .flex-parent {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 h3 {
@@ -125,19 +118,10 @@ h4 {
     background-color: black;
 }
 
-#image2 {
+#images {
     border: 5px solid lightblue;
     flex: 1 0 80%;
-}
-
-#image3 {
-    border: 5px solid lightblue;
-    flex: 1 0 80%;
-}
-
-#image4 {
-    border: 5px solid lightblue;
-    flex: 1 0 80%;
+    background-color: black;
 }
 
 p {
@@ -145,20 +129,25 @@ p {
     padding: 20px;
 }
 
-ul.contact {
-    display: flex
- 
+
+
+/*#image2 {
+    border: 5px solid lightblue;
+    flex: 1 0 80%;
+    background-color: black;
 }
 
-li {
-    flex: 3;
-    
+/*#image3 {
+    border: 5px solid lightblue;
+    flex: 1 0 80%;
+    background-color: black;
 }
 
+/*#image4 {
+    border: 5px solid lightblue;
+    flex: 1 0 80%;
+    background-color: black;
+}
 
-
-
-
-/* Use a media query to add a breakpointat 800px or smaller */
 
     
