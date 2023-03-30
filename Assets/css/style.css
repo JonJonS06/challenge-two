@@ -208,12 +208,24 @@ h3 {
 
 }
 
+<<<<<<< HEAD
 /*.contact-info {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     max-width: 100%;
 }
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+#contact-me p {
+    flex: 3;
+    padding: 20px;
+    text-decoration: underline;
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> 143a647 (WIP: 5534a92 added media queries for a more responsive layout)
 
 
 @media screen and (max-width: 768px) {
