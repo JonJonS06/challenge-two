@@ -10,7 +10,8 @@ body {
 
 header {
     display: flex;
-    font-size: 2rem;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
     flex-direction: row;
     justify-content: space-between;
     background-image: 
@@ -31,16 +32,6 @@ h1 {
 
 }
 
-.header image {
-    border-radius: 10px;
-    background-image: url(Assets/Images/37C21A8E-7785-4F3A-90DF-20304476C6DB_1_105_c.jpeg);
-    
-}
-
-.profile {
-    position: absolute;
-    margin: 25px;
-}
 
 nav {
     display: flex;
@@ -70,15 +61,29 @@ li a {
     
 }
 
-header.wood {
-    background-image: url(Assets/Images/old-faded-dull-pine-natural-dark-wooden-background.jpg);
-    background-color: lightseagreen; 
+.header image {
+    border-radius: 10px;
+    background-image: url(Assets/Images/37C21A8E-7785-4F3A-90DF-20304476C6DB_1_105_c.jpeg);
+    
+}
+
+.profile {
+    position: absolute;
+    margin: 25px;
+    
+}
+
+header.banner {
+    background-image: url(Assets/Images/old-faded-dull-pine-natural-dark-wooden-background.jpg); 
     
 }
 
 #subtitle  {
-    position: relative
-    ;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+
 }
 
 main {
@@ -94,8 +99,10 @@ main {
 
 }
 
-h3 {
-    font-size: 2rem;
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.75rem;
     border-right: 5px solid rgb(108 108 129);
     color: rgb(108 108 129);
     margin: 50px 50px;
@@ -103,30 +110,55 @@ h3 {
     
 }
 
-h4 {
+
+.flex-parent p {
+    flex: 3;
+    padding: 20px;
+}
+
+.container {
     display: flex;
-    position: relative;
+    flex-wrap: wrap;
+    width: 74%;
+}
+
+.project1 {
+    border: 5px solid lightblue;
+    flex: 1 0 100%;
+    background-color: black;
+}
+
+.project2 {
+    border: 5px solid lightblue;
+    flex: 1 0 50%;
+    background-color: black;
+}
+
+.project3 {
+    border: 5px solid lightblue;
+    flex: 1 0 50%;
+    background-color: black;
+}
+.project4 {
+    border: 5px solid lightblue;
+    flex: 1 0 50%;
+    background-color: black;
+}
+
+h3 {
+    display: flex;
+    position: absolute;
     background-color: aqua;
 
 }
 
-
-.image1 {
-    border: 5px solid lightblue;
-    flex: 1 0 80%;
-    background-color: black;
-}
-
-.images {
-    border: 5px solid lightblue;
-    flex: 1 0 80%;
-    background-color: black;
-}
-
-p {
+#contact-me p {
     flex: 3;
     padding: 20px;
+    text-decoration: underline;
 }
+
+
 
 
 
