@@ -78,7 +78,7 @@ header.banner {
     
 }
 
-#subtitle  {
+#subtitle {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -128,7 +128,7 @@ h2 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%%;
+    width: 100%;
 }
 
 #project-boxes {
@@ -185,9 +185,13 @@ h2 {
 .project5 {
     border: 1px solid gray;
     flex: 1 0 50%;
-    background-image: url(Assets/Images/toilet-paper.jpg);
+    background-image: url(Assets/Images/wooden-spoons.jpg);
 }
 
+.recipes {
+    height: 200px;
+    width: 100%;
+}
 
 h3 {
     display: flex;
