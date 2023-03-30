@@ -92,16 +92,25 @@ main {
 
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
 
 .flex-parent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 h2 {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     font-size: 1.75rem;
     border-right: 5px solid rgb(108 108 129);
     color: rgb(108 108 129);
@@ -119,35 +128,72 @@ h2 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 74%;
+    width: 100%%;
+}
+
+#project-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 77%;
+
 }
 
 .project1 {
-    border: 5px solid lightblue;
-    flex: 1 0 100%;
-    background-color: black;
+    border: 1px solid gray;
+    flex: 1 0 70%;
+    background-image: url(Assets/Images/digital-marketing-meeting.jpg);
+}
+
+.meeting {
+    height: 400px;
+    width: 100%;
 }
 
 .project2 {
-    border: 5px solid lightblue;
+    border: 1px solid gray;
     flex: 1 0 50%;
-    background-color: black;
+    background-image: url(Assets/Images/social-media-marketing.jpg);
+}
+
+.social-media {
+    height: 200px;
+    width: 100%;
 }
 
 .project3 {
-    border: 5px solid lightblue;
+    border: 1px solid gray;
     flex: 1 0 50%;
-    background-color: black;
+    background-image: url(Assets/Images/toilet-paper.jpg);
 }
+
+.toilet-paper {
+    height: 200px;
+    width: 100%;
+}
+
 .project4 {
-    border: 5px solid lightblue;
+    border: 1px solid gray;
     flex: 1 0 50%;
-    background-color: black;
+    background-image: url(Assets/Images/tablet.jpg);
 }
+
+.tablet {
+    height: 200px;
+    width: 100%;
+}
+
+.project5 {
+    border: 1px solid gray;
+    flex: 1 0 50%;
+    background-image: url(Assets/Images/toilet-paper.jpg);
+}
+
 
 h3 {
     display: flex;
-    position: absolute;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto;
     background-color: aqua;
 
 }
